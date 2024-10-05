@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\avatar.png",
+      "PackagePath": "staticwebassets\\Images\\avatar.png"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\iphone8Plus.jpg",
+      "PackagePath": "staticwebassets\\Images\\iphone8Plus.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\iphone8Plus.png",
+      "PackagePath": "staticwebassets\\Images\\iphone8Plus.png"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\samsungA51.jpg",
+      "PackagePath": "staticwebassets\\Images\\samsungA51.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\samsungA51.png",
+      "PackagePath": "staticwebassets\\Images\\samsungA51.png"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\samsungGalaxyA55.jpg",
+      "PackagePath": "staticwebassets\\Images\\samsungGalaxyA55.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\samsungGalaxyS24Ultra.jpg",
+      "PackagePath": "staticwebassets\\Images\\samsungGalaxyS24Ultra.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\samsungGalaxyZFlip6.jpg",
+      "PackagePath": "staticwebassets\\Images\\samsungGalaxyZFlip6.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WEB_253503_Yarmak.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WEB_253503_Yarmak.API.props",
+      "PackagePath": "build\\WEB_253503_Yarmak.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WEB_253503_Yarmak.API.props",
+      "PackagePath": "buildMultiTargeting\\WEB_253503_Yarmak.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WEB_253503_Yarmak.API.props",
+      "PackagePath": "buildTransitive\\WEB_253503_Yarmak.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

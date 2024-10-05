@@ -1,0 +1,83 @@
+﻿@model WEB_253503_Yarmak.Models.ListDemo;
+@{
+    ViewBag.Title = "Index";
+}
+
+            <br />
+            <h1>@ViewData["LabRab2"]</h1>
+            <h2>Список</h2>
+            <br />
+            <ol >
+                @for(int i = 0; i<5; i++)
+                {
+                    <li>Элемент @i списка</li>
+                }
+                
+            </ol>
+            <hr />
+            <h2>Форма</h2>
+            <br />
+            <form  method="post">
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2">
+                        <select class="form-select" aria-label="Default select example" asp-items="ViewBag.ListDemo" name="SelDemo"></select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1" name="inputCheckBox1">
+                        <label class="form-check-label" for="gridCheck1" name="labelCheckBox1">
+                        Чек-бокс 1
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                 <div class="row mb-3">
+                  <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck2" name="inputCheckBox2">
+                        <label class="form-check-label" for="gridCheck1" name="labelCheckBox2">
+                        Чек-бокс 2
+                      </label>
+                    </div>
+                  </div>
+                </div>
+               <div class="row mb-3">
+                 <div class="col-sm-10 offset-sm-2">
+                     <div class="form-check" style="display: inline-block; margin-right: 10px;">
+                         <input class="form-check-input" type="radio" name="inputRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1" name="labelRadios1">
+                             Радио-1
+                         </label>
+                     </div>
+                     <div class="form-check" style="display: inline-block; margin-right: 10px;">
+                        <input class="form-check-input" type="radio" name="inputRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2" name="labelRadios2">
+                             Радио-2
+                         </label>
+                     </div>
+                     <div class="form-check" style="display: inline-block;">
+                        <input class="form-check-input" type="radio" name="inputRadios" id="gridRadios3" value="option3">
+                        <label class="form-check-label" for="gridRadios3" name="labelRadios3">
+                             Радио-3
+                         </label>
+                     </div>
+                 </div>
+                </div>
+                <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label" name="labelLogin">Логин:</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputLogin3" name="inputLogin" placeholder="Введите имя" autocomplete="username">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                <label for="inputPassword" class="col-sm-2 col-form-label" name="labelPassword">Пароль:</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" name="inputPassword" placeholder="Введите пароль" autocomplete="current-password">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-info text-light">Отправить</button>
+            </form>
+            <br />
+       

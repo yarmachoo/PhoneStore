@@ -1,0 +1,133 @@
+﻿@using WEB_253503_Yarmak.Domain.Models;
+@model ProductListModel<Phone>;
+@{
+    var categories = ViewData["Categories"] as List<Category>;
+}
+@{
+    var pages = ViewData["ProductListModel"] as ProductListModel<Phone>;
+}
+<br />
+@{
+    string all = "Все";
+}
+<div class="container">
+    <div class="col-2 border-2">
+        <ul class="nav">
+            <li class="nav-item dropdown">
+                <a class="btn btn-danger dropdown-toggle dropdown-toggle-split alert-secondary"
+                    data-bs-toggle="dropdown"
+                    role="button"
+                   aria-expanded="false">
+                    @if(@ViewData["currentCategory"]!=null)
+                        @ViewData["currentCategory"]
+                    else
+                        @all
+                </a>
+            <ul class="dropdown-menu alert-secondary">
+                <li>
+                    <a class="dropdown-item"
+                    asp-controller="product"
+                    asp-route-category=@null>Все</a>
+                </li>
+                @foreach(var item in categories)
+                    {
+                        <li>
+                            <a class="dropdown-item"
+                            asp-controller="product"
+                            asp-route-category="@item.NormalizedName">
+                            @item.Name
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <br />
+    </div>
+    <div class="row">
+    @foreach(var phone in Model.Items)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="@phone.Image" width="20" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">"@phone.Name"</h5>
+                    <p class="card-text">@phone.Description</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">@phone.Price $</li>
+                </ul>
+                <div class="card-body text-center">
+                    <a asp-controller="Cart"
+                       asp-action="Add"
+                       asp-route-id="@phone.Id"
+                       class="btn btn-outline-success">
+                       Add to cart <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+    </div>
+    </div>
+    <div class="text-center">
+        <nav aria-label="...">
+            
+        @{
+            string previousAble = "";
+            string nextAble = "";
+            string currentAble = "";
+        }
+        @if(!pages.HasPreviousPage){
+            previousAble = "disabled";
+        }
+        else { previousAble = ""; }
+        @if (!pages.HasNextPage)
+        {
+            nextAble = "disabled";
+        }
+        else { nextAble = ""; }
+        <ul class="pagination">
+       
+        <li class="page-item @previousAble">
+            <a class="page-link"
+               asp-action="Index"
+                   asp-route-pageno="@(pages.CurrentPage-1)"
+                   asp-route-category="@Context.Request.Query["category"]">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+                Previous
+            </a>
+        </li>
+        
+        @for(int i = 1; i<=pages.TotalPages; i++)
+        {
+            @if(i==pages.CurrentPage)
+            {
+                currentAble = "active";
+            }
+            else
+            {
+                currentAble = "";
+            }
+                <li class="page-item @currentAble">
+                    <a class="page-link" 
+                    asp-action="Index" 
+                    asp-route-pageno="@i" 
+                    asp-route-category="@Context.Request.Query["category"]">@i
+                    </a>
+                </li>
+        }
+        <li class="page-item @nextAble">
+            <a class="page-link"
+                
+                asp-action="Index"
+                asp-route-pageno="@(pages.CurrentPage+1)"
+                   asp-route-category="@Context.Request.Query["category"]">
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                    Next
+            </a>
+        </li>
+    </ul>
+</nav>
+</div>

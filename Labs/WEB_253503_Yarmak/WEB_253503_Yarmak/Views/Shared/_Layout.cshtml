@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WEB_253503_Yarmak.styles.css" asp-append-version="true"/>
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="#">25350150</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <partial name="_MenuPartial"/>
+                    <partial name="_UserInfoPartial" />
+                </div> 
+            </nav>
+        </header>
+    <main class="container">
+      
+            @RenderBody()
+       
+    </main>
+    <footer>
+        <div class="navbar navbar-dark navbar-expand-md bg-dark">
+          <div class="navbar-nav ms-auto">
+             <a class="nav-item nav-link" href="http://www.facebook.com">
+                <i class="fa-brands fa-facebook-f fa-2x"></i>
+             </a>
+            <a class="nav-item nav-link" href="http://www.vk.com">
+                 <i class="fa-brands fa-vk fa-2x"></i>
+             </a>
+            <a class="nav-item nav-link" href="http://www.twitter.com">
+                 <i class="fa-brands fa-twitter fa-2x"></i>
+             </a>
+          </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("scripts", false)
+</body>
+</html>

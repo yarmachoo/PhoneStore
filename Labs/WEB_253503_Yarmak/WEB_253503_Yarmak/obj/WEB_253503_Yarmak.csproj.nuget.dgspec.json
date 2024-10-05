@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak\\WEB_253503_Yarmak.csproj": {}
+  },
+  "projects": {
+    "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\WEB_253503_Yarmak.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\WEB_253503_Yarmak.API.csproj",
+        "projectName": "WEB_253503_Yarmak.API",
+        "projectPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\WEB_253503_Yarmak.API.csproj",
+        "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Uni\\PacketsVS\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\WEB_253503_Yarmak.Domain.csproj": {
+                "projectPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\WEB_253503_Yarmak.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\WEB_253503_Yarmak.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\WEB_253503_Yarmak.Domain.csproj",
+        "projectName": "WEB_253503_Yarmak.Domain",
+        "projectPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\WEB_253503_Yarmak.Domain.csproj",
+        "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Uni\\PacketsVS\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak\\WEB_253503_Yarmak.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak\\WEB_253503_Yarmak.csproj",
+        "projectName": "WEB_253503_Yarmak",
+        "projectPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak\\WEB_253503_Yarmak.csproj",
+        "packagesPath": "C:\\Users\\veron\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Uni\\PacketsVS\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\veron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\WEB_253503_Yarmak.API.csproj": {
+                "projectPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\WEB_253503_Yarmak.API.csproj"
+              },
+              "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\WEB_253503_Yarmak.Domain.csproj": {
+                "projectPath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\WEB_253503_Yarmak.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "System.Linq": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

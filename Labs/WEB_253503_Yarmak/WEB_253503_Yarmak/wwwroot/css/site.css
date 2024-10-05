@@ -1,0 +1,27 @@
+header, footer{
+    background-color: rgba(var(--bs-dark-rgb));
+}
+.nav-color{
+    color:rgb(76 255 0) 
+}
+ul.lab1 {
+    list-style-type: upper-alpha; /* Использует заглавные буквы A, B, C... */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Занять полную высоту окна */
+    margin: 0; /* Убирает отступы по умолчанию */
+}
+
+.content {
+    flex: 1; /* Заполняет оставшееся пространство */
+}
+
+footer {
+    background: #333; /* Цвет фона футера */
+    color: white; /* Цвет текста */
+    text-align: center; /* Выравнивание текста */
+    
+}

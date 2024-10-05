@@ -1,0 +1,6 @@
+@WEB_253503_Yarmak.API_HostAddress = http://localhost:5211
+
+GET {{WEB_253503_Yarmak.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
