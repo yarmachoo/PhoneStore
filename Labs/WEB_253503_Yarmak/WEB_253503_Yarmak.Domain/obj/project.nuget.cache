@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "9W3vqwmnYjtbgpWJb0tuUgsHyX+g2H16qE71iAnnCTuiqHacwSRnXxQcw5DdRDlM7HJjOtgoa/tGlNx5jU2O9w==",
+  "dgSpecHash": "c01Zk36eNe1OycXrgIb/RaGcRqN1rRkTHsF4W6nyUD0/8UalU7a2O/dyM34+P93Sk9oN/1GTynQgNEKOYwBDaw==",
   "success": true,
   "projectFilePath": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.Domain\\WEB_253503_Yarmak.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.aspnetcore.http.features\\6.0.0-preview.4.21253.5\\microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.4.21253.7\\microsoft.extensions.primitives.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\system.io.pipelines\\6.0.0-preview.4.21253.7\\system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Users\\veron\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.4.21253.7\\system.runtime.compilerservices.unsafe.6.0.0-preview.4.21253.7.nupkg.sha512"
+  ],
   "logs": []
 }

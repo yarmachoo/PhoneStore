@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WEB_253503_Yarmak.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70940d9fd654dd181a241e9781406c162afcac8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44f3b9a9083a09ab1a1ba6185f417eb4237ee68d")]
 [assembly: System.Reflection.AssemblyProductAttribute("WEB_253503_Yarmak.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WEB_253503_Yarmak.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

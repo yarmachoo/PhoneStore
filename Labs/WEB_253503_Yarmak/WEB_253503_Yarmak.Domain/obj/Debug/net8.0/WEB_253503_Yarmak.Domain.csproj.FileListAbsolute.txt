@@ -21,3 +21,4 @@ D:\Uni\University\5sem\SPPR\Labs\WEB_253503_Yarmak\WEB_253503_Yarmak.Domain\obj\
 D:\Uni\University\5sem\SPPR\Labs\WEB_253503_Yarmak\WEB_253503_Yarmak.Domain\obj\Debug\net8.0\WEB_253503_Yarmak.Domain.pdb
 D:\Uni\University\5sem\SPPR\Labs\WEB_253503_Yarmak\WEB_253503_Yarmak.Domain\obj\Debug\net8.0\ref\WEB_253503_Yarmak.Domain.dll
 D:\Uni\University\5sem\SPPR\Labs\WEB_253503_Yarmak\WEB_253503_Yarmak.Domain\obj\Debug\net8.0\WEB_253503_Yarmak.Domain.sourcelink.json
+D:\Uni\University\5sem\SPPR\Labs\WEB_253503_Yarmak\WEB_253503_Yarmak.Domain\obj\Debug\net8.0\WEB_253503_Yarmak.Domain.csproj.AssemblyReference.cache

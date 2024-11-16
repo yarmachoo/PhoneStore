@@ -1,4 +1,5 @@
-﻿using WEB_253503_Yarmak.Services.CategoryService;
+﻿using WEB_253503_Yarmak.API.HelperClasses;
+using WEB_253503_Yarmak.Services.CategoryService;
 using WEB_253503_Yarmak.Services.ProductService;
 
 namespace WEB_253503_Yarmak.Extensions
@@ -14,6 +15,8 @@ namespace WEB_253503_Yarmak.Extensions
         {
             builder.Services.AddScoped<ICategoryService, ApiCategoryService>();
             builder.Services.AddScoped<IProductService, ApiProductService>();
+            builder.Services.Configure<KeycloakData>
+                (builder.Configuration.GetSection("Keycloak"));
         }
     }
 }

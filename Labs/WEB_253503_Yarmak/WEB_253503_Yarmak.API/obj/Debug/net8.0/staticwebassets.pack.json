@@ -1,8 +1,44 @@
 {
   "Files": [
     {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\0b39d355-cebe-4b17-9dfc-41a0ae7b4b3b.jpg",
+      "PackagePath": "staticwebassets\\Images\\0b39d355-cebe-4b17-9dfc-41a0ae7b4b3b.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\357aea68-957f-4579-8704-9d85d6e07461.jpg",
+      "PackagePath": "staticwebassets\\Images\\357aea68-957f-4579-8704-9d85d6e07461.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\6695b0cb-4e5a-457b-ba75-f7d95df2052b.jpg",
+      "PackagePath": "staticwebassets\\Images\\6695b0cb-4e5a-457b-ba75-f7d95df2052b.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\a982de6a-bd94-4d1b-a8a1-66bf62fa6ebb.jpg",
+      "PackagePath": "staticwebassets\\Images\\a982de6a-bd94-4d1b-a8a1-66bf62fa6ebb.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\a9c89b44-675c-4702-ab7f-f1d459692858.jpg",
+      "PackagePath": "staticwebassets\\Images\\a9c89b44-675c-4702-ab7f-f1d459692858.jpg"
+    },
+    {
       "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\avatar.png",
       "PackagePath": "staticwebassets\\Images\\avatar.png"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\c3b78d4d-bf1c-4022-bd64-4246f3198e4c.jpg",
+      "PackagePath": "staticwebassets\\Images\\c3b78d4d-bf1c-4022-bd64-4246f3198e4c.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\c9007076-e3b8-410f-951c-d5ea9487ca78.jpg",
+      "PackagePath": "staticwebassets\\Images\\c9007076-e3b8-410f-951c-d5ea9487ca78.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\c985e1ce-6a33-43b3-b2c3-2e95b6fbb9c5.jpg",
+      "PackagePath": "staticwebassets\\Images\\c985e1ce-6a33-43b3-b2c3-2e95b6fbb9c5.jpg"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\d274481d-9984-4f6a-88dc-8f4e63d49a18.jpg",
+      "PackagePath": "staticwebassets\\Images\\d274481d-9984-4f6a-88dc-8f4e63d49a18.jpg"
     },
     {
       "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\iphone8Plus.jpg",
@@ -11,6 +47,10 @@
     {
       "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\iphone8Plus.png",
       "PackagePath": "staticwebassets\\Images\\iphone8Plus.png"
+    },
+    {
+      "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\nophoto.jpg",
+      "PackagePath": "staticwebassets\\Images\\nophoto.jpg"
     },
     {
       "Id": "D:\\Uni\\University\\5sem\\SPPR\\Labs\\WEB_253503_Yarmak\\WEB_253503_Yarmak.API\\wwwroot\\Images\\samsungA51.jpg",
